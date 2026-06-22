@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="decrease()">-</button>
+
+    <span id="content">Add</span>
+
+    <button onclick="increase()">+</button>
+
+    <script>
+      let count = 0;
+      let content = document.getElementById("content");
+
+      function increase() {
+        count++;
+        content.textContent = count;
+      }
+
+      function decrease() {
+        if (count > 0) {
+          count--;
+          content.textContent = count;
+        }
+      }
+    </script>
+  </body>
+</html>
