@@ -1,5 +1,5 @@
 # JavaScript_Learning
-A collection of JavaScript practice programs and mini-projects created during my learning journey. Covers core JavaScript concepts including variables, operators, loops, functions, arrays, objects, DOM manipulation, events, local storage, and basic web development projects.
+JavaScript Learning is a comprehensive repository that showcases my journey of learning and mastering JavaScript through daily practice, coding exercises, and mini-projects. The repository covers fundamental and advanced JavaScript concepts including variables, data types, operators, conditional statements, loops, functions, arrays, objects, string methods, DOM manipulation, event handling, local storage, session storage, and ES6 features. It also includes interactive web applications and hands-on projects designed to strengthen problem-solving, logical thinking, and frontend development skills. The content is organized day-wise to track learning progress and demonstrate consistent growth in web development.
 # JavaScript Practice
 
 This repository contains my JavaScript learning and practice files organized day-wise.
