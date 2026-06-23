@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.error {
+  color: red;
+}
+.highlight {
+  background-color: yellow;
+}
+.success {
+  color: green;
+}

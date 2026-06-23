@@ -1,0 +1,73 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #2b72eb;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  transition: all 1.3s ease;
+}
+
+/* Highlight Effect */
+.highlight {
+  background-color: red;
+  color: yellow;
+  border-radius: 30px;
+  transform: scale(1.2);
+}
+
+/* Rounded Effect */
+.rounded {
+  border-radius: 50%;
+}
+
+/* Shadow Effect */
+.shadow {
+  box-shadow: 10px 10px 20px aqua;
+}
+
+/* * {
+  background-color: black;
+  color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #2b72eb;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px 0px;
+  transition: all 0.3s ease;
+}
+.highlight {
+  width: 200px;
+  background-color: red;
+  color: yellow;
+  transform: scale(1.2);
+}
+.rounded {
+  border-radius: 50%;
+}
+.shadow {
+  box-shadow: 10px 20px 80px aqua;
+} */

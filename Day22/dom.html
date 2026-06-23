@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DOM Practice</title>
+  </head>
+  <body>
+    <h1 id="main-heading">Welcome to DOM Practice</h1>
+    <div>
+      <p class="info">This is paragraph 1 with class "info"</p>
+
+      <p class="info">This is paragraph 2 with class "info"</p>
+
+      <p class="info">This is paragraph 3 with class "info"</p>
+
+      <p id="special">This is a special paragraph</p>
+    </div>
+
+    <ul id="fruit-list">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+      <li>Mango</li>
+      <li>Grapes</li>
+    </ul>
+
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button>Button 3</button>
+
+    <br /><br />
+
+    <input type="text" placeholder="Enter username" />
+    <input type="email" placeholder="Enter email" />
+    <iframe src="https://www.youtube.com/" title="Example Iframe"></iframe>
+    <script>
+      //<iframe src="" title="Example Iframe"></iframe>
+
+      //InnerHTML IS used for tags purpose, it can contain HTML tags and will be parsed as such. textContent is used for text content, it will treat everything as plain text.
+      const mainHeading = document.querySelector("#main-heading");
+      console.log(mainHeading);
+      mainHeading.innerHTML = "<em>Hello, DOM! of Day 22</em>";
+
+      //textContext property is used to get or set the text content of an element.
+      //   const mainHeading = document.querySelector("#main-heading");
+      //   console.log(mainHeading);
+      //   mainHeading.textContent = "Hello, DOM! of Day 22";
+
+      //querySelector and querySelectorAll
+      console.log(document.querySelector(".button"));
+      const specialParagraph = document.querySelector("#fruit-list");
+      console.log(specialParagraph);
+      //querySelectorAll returns a NodeList, which is similar to an array but not exactly the same. You can use forEach on it.
+      const allInfoParagraphs = document.querySelectorAll(".info");
+      allInfoParagraphs.forEach((paragraph) => {
+        console.log(paragraph.textContent);
+      });
+      const infoParagraphs = document.getElementsByClassName("info");
+      console.log(infoParagraphs);
+      const buttons = document.getElementsByTagName("button");
+      console.log(buttons);
+      for (let i = 0; i < infoParagraphs.length; i++) {
+        console.log(infoParagraphs[i].textContent.toUpperCase());
+      }
+      const heading = document.getElementById("main-heading");
+      console.log(heading);
+      console.log(document.getElementById("fruit-list"));
+    </script>
+  </body>
+</html>
