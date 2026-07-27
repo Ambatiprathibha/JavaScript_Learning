@@ -1,0 +1,27 @@
+//socialMedia application
+//socialMedia application
+function login(userId, password) {
+  console.log("Insta Loaded");
+  setTimeout(() => {
+    console.log("1.Login Successful:" + userId);
+    setTimeout(() => {
+      console.log("2.Profile Fetched");
+      setTimeout(() => {
+        console.log("3.Friend List Fetched");
+        setTimeout(() => {
+          console.log("4.Fetching Posts");
+          setTimeout(() => {
+            console.log("5.Fetching Comments");
+          }, 1000);
+        }, 2000);
+      }, 3000);
+    }, 2000);
+  }, 2000);
+}
+// function profileFetch() {}
+
+// function friendList() {}
+// function fetchPosts() {}
+// function fetchComments() {}
+console.log("Insta Loaded");
+login("user123", "password123");
