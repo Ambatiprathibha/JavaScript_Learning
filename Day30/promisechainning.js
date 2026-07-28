@@ -44,7 +44,7 @@ function getComments(postId) {
   });
 }
 
-// Promise Chaining
+// Promise Chaining implementation
 login()
   .then((user) => {
     return getProfile(user.userId);
