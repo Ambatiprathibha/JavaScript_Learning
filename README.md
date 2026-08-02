@@ -1,26 +1,57 @@
 # JavaScript_Learning
-JavaScript Learning is a comprehensive repository that showcases my journey of learning and mastering JavaScript through daily practice, coding exercises, and mini-projects. The repository covers fundamental and advanced JavaScript concepts including variables, data types, operators, conditional statements, loops, functions, arrays, objects, string methods, DOM manipulation, event handling, local storage, session storage, and ES6 features. It also includes interactive web applications and hands-on projects designed to strengthen problem-solving, logical thinking, and frontend development skills. The content is organized day-wise to track learning progress and demonstrate consistent growth in web development.
+JavaScript Learning is a comprehensive repository that documents my journey of learning and mastering JavaScript through consistent practice, coding exercises, and hands-on mini projects. It covers core and advanced JavaScript concepts, including variables, data types, operators, conditional statements, loops, functions, arrays, objects, string methods, scope and hoisting, object-oriented programming (OOP), closures, DOM manipulation, event handling, local storage, session storage, asynchronous JavaScript, promises, async/await, Fetch API, error handling, Git & GitHub, and modern ES6 features such as arrow functions, template literals, destructuring, spread/rest operators, modules, and classes. The repository also includes interactive web applications and mini projects that strengthen problem-solving, logical thinking, debugging, and frontend development skills. The content is organized in a structured, day-wise manner to demonstrate consistent learning progress, practical implementation, and continuous improvement in JavaScript and modern web development.
 # JavaScript Practice
 
-This repository contains my JavaScript learning and practice files organized day-wise.
+# JavaScript Learning 🚀
 
-## Topics Covered
+This repository contains my JavaScript learning journey, practice programs, notes, and mini projects completed during my Full Stack Java training.
+
+## 📚 Topics Covered
+
 - Variables and Data Types
 - Operators
 - Conditional Statements
 - Loops
 - Functions
 - Arrays and Objects
-- Strings and Methods
+- Strings and String Methods
 - DOM Manipulation
 - Events
 - Local Storage and Session Storage
 - ES6 Features
+  - let & const
+  - Arrow Functions
+  - Template Literals
+  - Destructuring
+  - Spread & Rest Operators
+  - Modules
+  - Classes
+- Scope and Hoisting
+- Objects and Object Methods
+- Constructor Functions
+- Prototypes
+- OOPs in JavaScript
+- First Class Functions
+- Closures
+- Array Methods
+- Error Handling (try...catch)
+- Asynchronous JavaScript
+- Timer Functions
+- Promises
+- Promise Chaining
+- Async/Await
+- Fetch API
+- Git & GitHub Basics
 - Mini Projects
 
-## Purpose
-To strengthen my JavaScript fundamentals through daily coding practice and hands-on projects.
+## 🛠️ Technologies Used
 
-## Author
-Ambati Prathibha
-B.Tech CSE Graduate
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- VS Code
+- Git & GitHub
+
+## 🎯 Repository Purpose
+
+This repository documents my JavaScript practice, interview preparation, coding exercises, and mini projects as part of my Full Stack Java learning journey.
